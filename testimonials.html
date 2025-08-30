@@ -1,761 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Client Testimonials - Real stories from Everly ' clients"
-    />
-    <meta
-      name="keywords"
-      content="healthcare testimonials, elderly care reviews, medical services feedback, home care testimonials"
-    />
-    <meta name="author" content="Everly" />
-    <title>Testimonials - Everly</title>
-    <link rel="icon" type="image/x-icon" href="icon/favicon.ico" />
-    <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="lib/css/fontawesome.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/border.css" />
-  </head>
 
-  <body>
-    <!-- Skip to main content for accessibility -->
-    <a href="#main-content" class="visually-hidden-focusable"
-      >Skip to main content</a
-    >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Client Testimonials - Real stories from Everly ' clients" />
+  <meta name="keywords"
+    content="healthcare testimonials, elderly care reviews, medical services feedback, home care testimonials" />
+  <meta name="author" content="Everly" />
+  <title>Testimonials - Everly</title>
+  <link rel="icon" type="image/x-icon" href="icon/favicon.ico" />
+  <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="lib/css/fontawesome.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/border.css" />
+</head>
 
-    <!-- Navbar Start -->
-    <nav
-      class="navbar bg-subtle d-flex justify-content-center"
-      aria-label="Main navigation"
-    >
-      <div class="navbar-size">
-        <div class="container-lg d-flex justify-content-between px-0">
-          <a
-            class="navbar-brand ms-0 ms-sm-3 ms-lg-0 logo-width"
-            href="index.html"
-          >
-            <img
-              src="img/everly-logo.png"
-              alt="Brand Logo"
-              width="175"
-              height="50"
-              class="img-fluid"
-            />
-          </a>
-          <div class="d-flex align-items-center">
-            <div class="navbar-expand-lg">
-              <div
-                class="offcanvas offcanvas-start"
-                tabindex="-1"
-                id="offcanvasNavbar"
-                data-bs-scroll="true"
-                aria-labelledby="offcanvasNavbar"
-              >
-                <div class="offcanvas-header">
-                  <button
-                    type="button"
-                    class="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="offcanvas-body d-lg-flex justify-content-center">
-                  <ul class="navbar-nav gap-3">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <button
-                        class="nav-link dropdown-toggle active"
-                        id="pagesDropdown"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Pages
-                      </button>
-                      <ul
-                        class="dropdown-menu custom-dropdown-menu"
-                        aria-labelledby="pagesDropdown"
-                      >
-                        <li class="pad"></li>
-                        <li>
-                          <a class="dropdown-item py-3 px-4" href="pricing.html"
-                            >Pricing</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item py-3 px-4" href="team.html"
-                            >Team</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="testimonials.html"
-                            >Testimonials</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item py-3 px-4" href="faqs.html"
-                            >FAQS</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="404-page.html"
-                            >404 Page</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <button
-                        class="nav-link dropdown-toggle"
-                        id="servicesDropdown"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Services
-                      </button>
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="servicesDropdown"
-                      >
-                        <li class="pad"></li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="services.html"
-                            >Services</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="services-detail.html"
-                            >Service Detail</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <button
-                        class="nav-link dropdown-toggle"
-                        id="blogDropdown"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Our Blog
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="blogDropdown">
-                        <li class="pad"></li>
-                        <li>
-                          <a class="dropdown-item py-3 px-4" href="blog.html"
-                            >Blog Post</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="single-post.html"
-                            >Single Post</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex">
-            <div class="d-none d-sm-flex">
-              <div
-                class="offcanvas offcanvas-end"
-                tabindex="-1"
-                id="offcanvasHero"
-                data-bs-scroll="true"
-                aria-labelledby="offcanvasHero"
-              >
-                <div class="offcanvas-header">
-                  <button
-                    type="button"
-                    class="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="offcanvas-body">
-                  <div>
-                    <img
-                      src="img/everly-logo.png"
-                      alt="Brand Logo"
-                      class="d-inline-block img-sidebar"
-                    />
-                  </div>
-                  <p class="my-3">
-                    Supporting independence with compassionate care, every
-                    moment of life feels cherished.
-                  </p>
-                  <h5 class="my-3">Address</h5>
-                  <p class="mb-2">
-                    123 Serentity Lane, Suite 101, Hometown, cA 12345
-                  </p>
-                  <h5 class="my-3">Contact</h5>
-                  <p class="mb-2">(555) 123-4567</p>
-                  <h5 class="my-3">Follow Us</h5>
-                  <div class="d-flex gap-2 py-2">
-                    <a
-                      href="https://www.facebook.com/"
-                      class="social-icon-32 share"
-                      data-share-to="facebook"
-                    >
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a
-                      href="https://www.instagram.com/"
-                      class="social-icon-32 share"
-                      data-share-to="instagram"
-                    >
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a
-                      href="https://www.youtube.com/"
-                      class="social-icon-32 share"
-                      data-share-to="youtube"
-                    >
-                      <i class="fa-brands fa-youtube"></i>
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/"
-                      class="social-icon-32 share"
-                      data-share-to="linkedin"
-                    >
-                      <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
 
-              <div
-                class="offcanvas offcanvas-top"
-                tabindex="-1"
-                id="offcanvasSearch"
-                data-bs-scroll="true"
-                aria-labelledby="offcanvasSearch"
-              >
-                <div class="offcanvas-header">
-                  <button
-                    type="button"
-                    class="btn-close-custom"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  >
-                    <i class="fa-solid fa-x c-text-2"></i>
-                  </button>
-                </div>
-                <div class="offcanvas-body d-flex align-items-center">
-                  <form class="search-form d-flex align-items-center">
-                    <div class="input-group">
-                      <input
-                        type="text"
-                        class="form-control border-0 bg-transparent"
-                        placeholder="Search..."
-                        aria-label="Search"
-                        aria-describedby="search-button"
-                      />
-                      <button
-                        class="btn border-0 bg-transparent"
-                        type="submit"
-                        id="search-button"
-                      >
-                        <i class="fas fa-search c-text-2"></i>
-                      </button>
-                    </div>
-                  </form>
-                </div>
+  <!-- Navbar Start -->
+  <nav class="navbar bg-subtle d-flex justify-content-center" aria-label="Main navigation">
+    <div class="navbar-size">
+      <div class="container-lg d-flex justify-content-between px-0">
+        <a class="navbar-brand ms-0 ms-sm-3 ms-lg-0 logo-width" href="index.html">
+          <img src="img/everly-logo.png" alt="Brand Logo" width="175" height="50" class="img-fluid" />
+        </a>
+        <div class="d-flex align-items-center">
+          <div class="navbar-expand-lg">
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" data-bs-scroll="true"
+              aria-labelledby="offcanvasNavbar">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
               </div>
-            </div>
-            <div class="d-none d-sm-flex">
-              <button
-                class="desktop-toggler"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasSearch"
-                aria-controls="offcanvasSearch"
-                aria-label="Toggle navigation"
-              >
-                <i class="fas fa-search c-main fa-lg"></i>
-              </button>
-            </div>
-            <div class="d-none d-lg-flex">
-              <button
-                class="desktop-toggler"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasHero"
-                aria-controls="offcanvasHero"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="d-flex d-lg-none">
-              <button
-                class="navbar-toggler px-0"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar"
-                aria-label="Toggle navigation"
-              >
-                <span class="custom-toggler-icon">
-                  <span class="bar bar-1"></span>
-                  <span class="bar bar-2"></span>
-                  <span class="bar bar-3"></span>
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar End -->
-    <!-- Banner Start -->
-    <div class="bg-banner-4">
-      <div class="page-size fade-in-left">
-        <h1 class="c-white">Testimonials</h1>
-        <div>
-          <p class="c-text-2">
-            Home
-            <img
-              src="icon/plus.png"
-              alt="plus"
-              width="16"
-              height="16"
-              class="icon-plus mx-1"
-            />
-            Testimonials
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- Banner End -->
-    <!-- Testimonials Start -->
-    <div class="bg-subtle z-index-50">
-      <div class="page-size">
-        <div
-          class="d-block d-sm-flex justify-content-between align-items-center"
-        >
-          <div class="fade-in-left">
-            <div
-              class="d-flex justify-content-start align-items-center gap-1 mt-5 mt-sm-0"
-            >
-              <div>
-                <i class="fa-solid fa-plus c-main fa-sm"></i>
-              </div>
-              <span class="page-title c-main">TESTIMONIALS</span>
-            </div>
-            <h2 class="mt-3 mb-4">Real Experiences, Real Results</h2>
-          </div>
-          <div>
-            <a href="testimonials.html" class="btn-main mt-4 mb-3">
-              More Testimonial
-            </a>
-          </div>
-        </div>
-
-        <div class="d-block d-lg-flex gap-3 mt-5">
-          <div class="d-flex flex-column gap-3">
-            <div class="card-testimonial fade-in-up">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">Life-Enriching Support</h4>
-              <p>
-                Everly transformed my father's life. The caregivers are kind,
-                attentive, and truly compassionate. I am grateful for their
-                dedication and support during this time
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-6.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">Henry Thompson</span>
-              </div>
-            </div>
-            <div class="card-testimonial fade-in-up">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">24/7 Dependability</h4>
-              <p>
-                Everly's 24/7 availability has been a lifesaver. Their
-                caregivers provide reliable support day and night, ensuring my
-                mother feels safe and secure. I can't express how much their
-                care means to our family
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-5.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">Olivia Renolds</span>
-              </div>
-            </div>
-            <div class="card-testimonial fade-in-up">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">Carefivers Are Kind</h4>
-              <p>
-                Everly has been a lifesaver for our family. Their caregivers are
-                kind, attentive, and truly go above and beyond. Knowing my mom
-                is in capable, caring hands gives us so much peace of mind
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-12.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">John Price</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex flex-column gap-3">
-            <div class="card-testimonial mt-3 mt-lg-0 fade-in-up delay-1">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">Heartfelt Companionship</h4>
-              <p>
-                The companionship my grandmother receives from Everly has been
-                life-changing. She now enjoys daily activities and
-                conversations, which have greatly improved her mood and overall
-                well-being. We are truly grateful for their wonderful support
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-9.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">Sophia Martinez</span>
-              </div>
-            </div>
-            <div class="card-testimonial flex-grow-1 fade-in-up delay-1">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">Respectful Care</h4>
-              <p>
-                Everly's team is incredible! They treat my father with respect
-                and dignity, ensuring he remains comfortable and engaged.
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-7.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">James Caldwell</span>
-              </div>
-            </div>
-            <div class="card-testimonial flex-grow-1 fade-in-up delay-1">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">The're Professional</h4>
-              <p>
-                The support from Everly's team has been amazing. They're
-                professional, responsive, and compassionate. My father is
-                happier and healthier, and we're grateful for the sense of
-                comfort and security
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-11.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">Linda Marks</span>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex flex-column gap-3">
-            <div class="card-testimonial mt-3 mt-lg-0 fade-in-up delay-2">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">Outstanding Experience</h4>
-              <p>
-                Our experience with Everly has been outstanding. The caregivers
-                genuinely care about their clients, making a positive impact on
-                our family's life. Thank you!
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-8.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">Michael Donovan</span>
-              </div>
-            </div>
-            <div class="card-testimonial flex-grow-1 fade-in-up delay-2">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">Peace of Mind</h4>
-              <p>
-                Knowing that my mother is in such capable hands gives our family
-                peace of mind. Everly's caregivers are attentive, respectful,
-                and dedicated to ensuring her comfort. Their service is truly
-                invaluable to us!
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-10.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">Evelyn Harper</span>
-              </div>
-            </div>
-            <div class="card-testimonial flex-grow-1 fade-in-up delay-2">
-              <div>
-                <i class="fa-solid fa-quote-left large-icon c-main"></i>
-              </div>
-              <h4 class="my-3">A Positive Change</h4>
-              <p>
-                Everly's caregivers treat my grandmother with respect and
-                warmth. She's more independent and confident, and we've noticed
-                such a positive change in her outlook. Everly truly cares
-              </p>
-              <div class="d-flex align-items-center gap-3">
-                <div>
-                  <img
-                    src="img/testimonial-13.jpg"
-                    alt="testimonial"
-                    class="circle-testimonial"
-                  />
-                </div>
-                <span class="name-testimonial">Paul Rusho</span>
+              <div class="offcanvas-body d-lg-flex justify-content-center">
+                <ul class="navbar-nav gap-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle active" id="pagesDropdown" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Pages
+                    </button>
+                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="pagesDropdown">
+                      <li class="pad"></li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="pricing.html">Pricing</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="team.html">Team</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="testimonials.html">Testimonials</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="faqs.html">FAQS</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="404-page.html">404 Page</a>
+                      </li>
+                    </ul>
+                  </li> -->
+                  <!-- <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle" id="servicesDropdown" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Services
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                      <li class="pad"></li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="services.html">Services</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="services-detail.html">Service Detail</a>
+                      </li>
+                    </ul>
+                  </li> -->
+                  <!-- <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle" id="blogDropdown" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Our Blog
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                      <li class="pad"></li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="blog.html">Blog Post</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="single-post.html">Single Post</a>
+                      </li>
+                    </ul>
+                  </li> -->
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- Testimonials End -->
-    <!-- Get Started Start -->
-    <div class="bg-subtle">
-      <div class="get-started-size pt-0">
-        <div class="bg-get-started fade-in-up">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-lg-7">
-                <div
-                  class="d-flex justify-content-start align-items-center gap-1 mt-5 mt-sm-0"
-                >
-                  <div>
-                    <i class="fa-solid fa-plus c-main fa-sm"></i>
-                  </div>
-                  <span class="page-title c-white">GET STARTED</span>
-                </div>
-                <h2 class="c-white mt-3 mb-4">Your Journey Begins Here</h2>
-                <div class="d-flex gap-3 mt-2 mt-lg-5">
-                  <a href="services.html" class="btn-hero-1">Get Started</a>
-                  <a href="contact.html" class="btn-hero-3">Contact Us</a>
-                </div>
+        <div class="d-flex">
+          <div class="d-none d-sm-flex">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasHero" data-bs-scroll="true"
+              aria-labelledby="offcanvasHero">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
               </div>
-              <div class="col-12 col-lg-5">
-                <p class="c-text-2 mt-5">
-                  Have questions or need assistance? Our dedicated team is here
-                  to help you every step of the way. Reach out today, and let's
-                  start a conversation
+              <div class="offcanvas-body">
+                <div>
+                  <img src="img/everly-logo.png" alt="Brand Logo" class="d-inline-block img-sidebar" />
+                </div>
+                <p class="my-3">
+                  Supporting independence with compassionate care, every
+                  moment of life feels cherished.
                 </p>
-                <div
-                  class="d-block d-sm-flex gap-2 justify-content-lg-end justify-content-sm-start align-items-center mt-5 mt-lg-3"
-                >
-                  <div class="d-flex order-sm-0 order-lg-1">
-                    <div>
-                      <img
-                        src="img/testimonial-1.jpg"
-                        class="testimonial-circle-first"
-                        alt="testimonial"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="img/testimonial-2.jpg"
-                        class="testimonial-circle"
-                        alt="testimonial"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="img/testimonial-3.jpg"
-                        class="testimonial-circle"
-                        alt="testimonial"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src="img/testimonial-4.jpg"
-                        class="testimonial-circle"
-                        alt="testimonial"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    class="d-block d-sm-flex flex-column align-items-start align-items-lg-end order-sm-1 order-lg-0 mt-2"
-                  >
-                    <img
-                      src="img/starts.png"
-                      alt="stars"
-                      width="80"
-                      class="img-stars"
-                    />
-                    <div>
-                      <span class="review-text">4.9 Google review</span>
-                    </div>
-                  </div>
+                <h5 class="my-3">Address</h5>
+                <p class="mb-2">
+                  123 Serentity Lane, Suite 101, Hometown, cA 12345
+                </p>
+                <h5 class="my-3">Contact</h5>
+                <p class="mb-2">(555) 123-4567</p>
+                <h5 class="my-3">Follow Us</h5>
+                <div class="d-flex gap-2 py-2">
+                  <a href="https://www.facebook.com/" class="social-icon-32 share" data-share-to="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" class="social-icon-32 share" data-share-to="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.youtube.com/" class="social-icon-32 share" data-share-to="youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/" class="social-icon-32 share" data-share-to="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Get Started End -->
-    <!-- Footer Start -->
-    <div class="bg-darker">
-      <div class="page-size">
-        <div class="container-lg px-0">
-          <div>
-            <div class="d-flex justify-content-start justify-content-sm-center">
-              <img
-                src="img/everly-logo-white.png"
-                alt="logo"
-                class="footer-logo"
-              />
-            </div>
-            <div
-              class="d-flex justify-content-start justify-content-sm-center mt-2 mb-4"
-            >
-              <p class="c-text-2 footer-text">
-                Supporting independence with compassionate care, every moment of
-                life feels cherished.
-              </p>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col-12 col-lg-6 order-4 order-lg-0 mt-5 mt-lg-0">
-              <h4 class="c-white mb-4">Newsletter</h4>
-              <form action="#" method="post" id="newsletterForm">
-                <div class="popup-message" id="popupMessage">
-                  <div>
-                    <i class="fa-solid fa-check fa-2xl"></i>
-                  </div>
-                  Thank you! The form submitted successfully
-                </div>
-                <input
-                  type="email"
-                  class="input-newsletter"
-                  placeholder="Email"
-                />
-                <button type="submit" class="btn btn-newsletter mt-3">
-                  Subscribe Now
-                </button>
-              </form>
-            </div>
-            <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
-              <h4 class="c-white">Explore</h4>
-              <ul class="footer-links">
-                <li>
-                  <a class="footer-link" href="index.html">Home</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="about.html">About</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="contact.html">Contact</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="services.html">Services</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="packages.html">Packages</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
-              <h4 class="c-white">Navigation</h4>
-              <ul class="footer-links">
-                <li>
-                  <a class="footer-link" href="index.html">Privacy Policy</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="index.html">Customer Support</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="index.html">Regulation</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="index.html">Insurance</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="index.html">Disclaimer</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
-              <div>
-                <h4 class="c-white mb-1">Our Contact</h4>
-                <h4 class="c-white mt-3 pt-1">Phone</h4>
-                <p class="c-text-2">(555) 123-4567</p>
-                <h4 class="c-white">Email</h4>
-                <p class="c-text-2">care@everlyservices.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer End -->
-    <script src="lib/js/bootstrap.bundle.min.js"></script>
 
-    <script src="js/index.js"></script>
-  </body>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasSearch" data-bs-scroll="true"
+              aria-labelledby="offcanvasSearch">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close-custom" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <i class="fa-solid fa-x c-text-2"></i>
+                </button>
+              </div>
+              <div class="offcanvas-body d-flex align-items-center">
+                <form class="search-form d-flex align-items-center">
+                  <div class="input-group">
+                    <input type="text" class="form-control border-0 bg-transparent" placeholder="Search..."
+                      aria-label="Search" aria-describedby="search-button" />
+                    <button class="btn border-0 bg-transparent" type="submit" id="search-button">
+                      <i class="fas fa-search c-text-2"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-sm-flex">
+            <button class="desktop-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"
+              aria-controls="offcanvasSearch" aria-label="Toggle navigation">
+              <i class="fas fa-search c-main fa-lg"></i>
+            </button>
+          </div>
+          <div class="d-none d-lg-flex">
+            <button class="desktop-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHero"
+              aria-controls="offcanvasHero" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="d-flex d-lg-none">
+            <button class="navbar-toggler px-0" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="custom-toggler-icon">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+  <!-- Banner Start -->
+  <div class="bg-banner-4">
+    <div class="page-size fade-in-left">
+      <h1 class="c-white">Testimonials</h1>
+      <div>
+        <p class="c-text-2">
+          Home
+          <img src="icon/plus.png" alt="plus" width="16" height="16" class="icon-plus mx-1" />
+          Testimonials
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Banner End -->
+  <!-- Testimonials Start -->
+  <div class="bg-subtle z-index-50">
+    <div class="page-size">
+      <div class="d-block d-sm-flex justify-content-between align-items-center">
+        <div class="fade-in-left">
+          <div class="d-flex justify-content-start align-items-center gap-1 mt-5 mt-sm-0">
+            <div>
+              <i class="fa-solid fa-plus c-main fa-sm"></i>
+            </div>
+            <span class="page-title c-main">TESTIMONIALS</span>
+          </div>
+          <h2 class="mt-3 mb-4">Voices of Trust and Care</h2>
+        </div>
+        <!-- <div>
+          <a href="testimonials.html" class="btn-main mt-4 mb-3">
+            More Testimonial
+          </a>
+        </div> -->
+      </div>
+
+      <div class="d-block d-lg-flex gap-3 mt-5">
+        <div class="d-flex flex-column gap-3">
+          <div class="card-testimonial fade-in-up">
+            <div>
+              <i class="fa-solid fa-quote-left large-icon c-main"></i>
+            </div>
+            <h4 class="my-3">Transformative Care</h4>
+            <p>
+              The caregivers have transformed my father’s life by offering consistent kindness, reliability, and daily
+              support, giving our family true peace
+            </p>
+            <div class="d-flex align-items-center gap-3">
+              <div>
+                <img src="img/testimonial-5.jpg" alt="testimonial" class="circle-testimonial" />
+              </div>
+              <span class="name-testimonial">Henry Thompson</span>
+            </div>
+          </div>
+          <div class="card-testimonial fade-in-up">
+            <div>
+              <i class="fa-solid fa-quote-left large-icon c-main"></i>
+            </div>
+            <h4 class="my-3">Always There for You</h4>
+            <p>
+              The 24/7 dependable support ensures my mother feels safe, secure, and cared for every day, giving us
+              priceless peace of mind
+            </p>
+            <div class="d-flex align-items-center gap-3">
+              <div>
+                <img src="img/testimonial-6.jpg" alt="testimonial" class="circle-testimonial" />
+              </div>
+              <span class="name-testimonial">Olivia Renolds</span>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-3">
+          <div class="card-testimonial mt-3 mt-lg-0 fade-in-up delay-1">
+            <div>
+              <i class="fa-solid fa-quote-left large-icon c-main"></i>
+            </div>
+            <h4 class="my-3">Meaningful Connections</h4>
+            <p>
+              My grandmother enjoys meaningful companionship with daily activities and uplifting conversations, which
+              brighten her spirit and improve her overall well-being
+            </p>
+            <div class="d-flex align-items-center gap-3">
+              <div>
+                <img src="img/testimonial-7.jpg" alt="testimonial" class="circle-testimonial" />
+              </div>
+              <span class="name-testimonial">Sophia Martinez</span>
+            </div>
+          </div>
+          <div class="card-testimonial flex-grow-1 fade-in-up delay-1">
+            <div>
+              <i class="fa-solid fa-quote-left large-icon c-main"></i>
+            </div>
+            <h4 class="my-3">Care with Dignity</h4>
+            <p>
+              The caregivers treat my father with dignity, respect, and thoughtful attention, keeping him comfortable,
+              engaged, and valued every single day
+            </p>
+            <div class="d-flex align-items-center gap-3">
+              <div>
+                <img src="img/testimonial-8.jpg" alt="testimonial" class="circle-testimonial" />
+              </div>
+              <span class="name-testimonial">James Caldwell</span>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-3">
+          <div class="card-testimonial mt-3 mt-lg-0 fade-in-up delay-2">
+            <div>
+              <i class="fa-solid fa-quote-left large-icon c-main"></i>
+            </div>
+            <h4 class="my-3">Exceptional Care Journey</h4>
+            <p>
+              The dedicated caregivers have provided excellent support, showing genuine compassion and commitment,
+              creating a lasting positive impact on our family. Thank you!
+            </p>
+            <div class="d-flex align-items-center gap-3">
+              <div>
+                <img src="img/testimonial-9.jpg" alt="testimonial" class="circle-testimonial" />
+              </div>
+              <span class="name-testimonial">Michael Donovan</span>
+            </div>
+          </div>
+          <div class="card-testimonial flex-grow-1 fade-in-up delay-2">
+            <div>
+              <i class="fa-solid fa-quote-left large-icon c-main"></i>
+            </div>
+            <h4 class="my-3">Comfort You Can Trust</h4>
+            <p>
+              Having my mother in capable hands provides our family with reassurance, confidence, and lasting peace,
+              knowing her safety, dignity, and well-being are always prioritized!
+            </p>
+            <div class="d-flex align-items-center gap-3">
+              <div>
+                <img src="img/testimonial-10.jpg" alt="testimonial" class="circle-testimonial" />
+              </div>
+              <span class="name-testimonial">Evelyn Harper</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Testimonials End -->
+  <!-- Get Started Start -->
+  <div class="bg-subtle">
+    <div class="get-started-size pt-0">
+      <div class="bg-get-started fade-in-up">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-7">
+              <div class="d-flex justify-content-start align-items-center gap-1 mt-5 mt-sm-0">
+                <div>
+                  <i class="fa-solid fa-plus c-main fa-sm"></i>
+                </div>
+                <span class="page-title c-white">GET STARTED</span>
+              </div>
+              <h2 class="c-white mt-3 mb-4">Your Journey Begins Here</h2>
+              <div class="d-flex gap-3 mt-2 mt-lg-5">
+                <a href="services.html" class="btn-hero-1">Get Started</a>
+                <a href="contact.html" class="btn-hero-3">Contact Us</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5">
+              <p class="c-text-2 mt-5">
+                Have questions or need assistance? Our dedicated team is here
+                to help you every step of the way. Reach out today, and let's
+                start a conversation
+              </p>
+              <div
+                class="d-block d-sm-flex gap-2 justify-content-lg-end justify-content-sm-start align-items-center mt-5 mt-lg-3">
+                <div class="d-flex order-sm-0 order-lg-1">
+                  <div>
+                    <img src="img/testimonial-1.jpg" class="testimonial-circle-first" alt="testimonial" />
+                  </div>
+                  <div>
+                    <img src="img/testimonial-2.jpg" class="testimonial-circle" alt="testimonial" />
+                  </div>
+                  <div>
+                    <img src="img/testimonial-3.jpg" class="testimonial-circle" alt="testimonial" />
+                  </div>
+                  <div>
+                    <img src="img/testimonial-4.jpg" class="testimonial-circle" alt="testimonial" />
+                  </div>
+                </div>
+                <div
+                  class="d-block d-sm-flex flex-column align-items-start align-items-lg-end order-sm-1 order-lg-0 mt-2">
+                  <img src="img/starts.png" alt="stars" width="80" class="img-stars" />
+                  <div>
+                    <span class="review-text">4.9 Google review</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Get Started End -->
+  <!-- Footer Start -->
+  <div class="bg-darker">
+    <div class="page-size">
+      <div class="container-lg px-0">
+        <div>
+          <div class="d-flex justify-content-start justify-content-sm-center">
+            <img src="img/everly-logo-white.png" alt="logo" class="footer-logo" />
+          </div>
+          <div class="d-flex justify-content-start justify-content-sm-center mt-2 mb-4">
+            <p class="c-text-2 footer-text">
+              Supporting independence with heartfelt care, making every moment truly meaningful
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-lg-6 order-4 order-lg-0 mt-5 mt-lg-0">
+            <h4 class="c-white mb-4">Newsletter</h4>
+            <form action="#" method="post" id="newsletterForm">
+              <div class="popup-message" id="popupMessage">
+                <div>
+                  <i class="fa-solid fa-check fa-2xl"></i>
+                </div>
+                Thank you! The form submitted successfully
+              </div>
+              <input type="email" class="input-newsletter" placeholder="Email" />
+              <button type="submit" class="btn btn-newsletter mt-3">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
+            <h4 class="c-white">Explore</h4>
+            <ul class="footer-links">
+              <li>
+                <a class="footer-link" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="footer-link" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="footer-link" href="contact.html">Contact</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Services</a>
+              </li>
+              <!-- <li>
+                <a class="footer-link" href="packages.html">Packages</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
+            <h4 class="c-white">Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a class="footer-link" href="services.html">Visiting Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Live-in Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Nursing Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Older Person Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Dementia Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Comfort Care</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
+            <div>
+              <h4 class="c-white mb-1">Our Contact</h4>
+              <h4 class="c-white mt-3 pt-1">Phone</h4>
+              <p class="c-text-2">(555) 123-4567</p>
+              <h4 class="c-white">Email</h4>
+              <p class="c-text-2">care@everlyservices.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+  <script src="lib/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>

@@ -1,773 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Contact Everly  - Get in touch with our care team"
-    />
-    <meta
-      name="keywords"
-      content="contact healthcare, home care contact, elderly care contact, medical services contact"
-    />
-    <meta name="author" content="Everly" />
-    <title>Contact Us - Everly</title>
-    <link rel="icon" type="image/x-icon" href="icon/favicon.ico" />
-    <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="lib/css/fontawesome.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/border.css" />
-  </head>
 
-  <body>
-    <!-- Skip to main content for accessibility -->
-    <a href="#main-content" class="visually-hidden-focusable"
-      >Skip to main content</a
-    >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Everly  - Get in touch with our care team" />
+  <meta name="keywords"
+    content="contact healthcare, home care contact, elderly care contact, medical services contact" />
+  <meta name="author" content="Everly" />
+  <title>Contact Us - Stone Heaven Care</title>
+  <link rel="icon" type="image/x-icon" href="icon/favicon.ico" />
+  <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="lib/css/fontawesome.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/border.css" />
+</head>
 
-    <!-- Navbar Start -->
-    <nav
-      class="navbar bg-subtle d-flex justify-content-center"
-      aria-label="Main navigation"
-    >
-      <div class="navbar-size">
-        <div class="container-lg d-flex justify-content-between px-0">
-          <a
-            class="navbar-brand ms-0 ms-sm-3 ms-lg-0 logo-width"
-            href="index.html"
-          >
-            <img
-              src="img/everly-logo.png"
-              alt="Brand Logo"
-              width="175"
-              height="50"
-              class="img-fluid"
-            />
-          </a>
-          <div class="d-flex align-items-center">
-            <div class="navbar-expand-lg">
-              <div
-                class="offcanvas offcanvas-start"
-                tabindex="-1"
-                id="offcanvasNavbar"
-                data-bs-scroll="true"
-                aria-labelledby="offcanvasNavbar"
-              >
-                <div class="offcanvas-header">
-                  <button
-                    type="button"
-                    class="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="offcanvas-body d-lg-flex justify-content-center">
-                  <ul class="navbar-nav gap-3">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <button
-                        class="nav-link dropdown-toggle"
-                        id="pagesDropdown"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Pages
-                      </button>
-                      <ul
-                        class="dropdown-menu custom-dropdown-menu"
-                        aria-labelledby="pagesDropdown"
-                      >
-                        <li class="pad"></li>
-                        <li>
-                          <a class="dropdown-item py-3 px-4" href="pricing.html"
-                            >Pricing</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item py-3 px-4" href="team.html"
-                            >Team</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="testimonials.html"
-                            >Testimonials</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item py-3 px-4" href="faqs.html"
-                            >FAQS</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="404-page.html"
-                            >404 Page</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <button
-                        class="nav-link dropdown-toggle"
-                        id="servicesDropdown"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Services
-                      </button>
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="servicesDropdown"
-                      >
-                        <li class="pad"></li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="services.html"
-                            >Services</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="services-detail.html"
-                            >Service Detail</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <button
-                        class="nav-link dropdown-toggle"
-                        id="blogDropdown"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Our Blog
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="blogDropdown">
-                        <li class="pad"></li>
-                        <li>
-                          <a class="dropdown-item py-3 px-4" href="blog.html"
-                            >Blog Post</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            class="dropdown-item py-3 px-4"
-                            href="single-post.html"
-                            >Single Post</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+
+  <!-- Navbar Start -->
+  <nav class="navbar bg-subtle d-flex justify-content-center" aria-label="Main navigation">
+    <div class="navbar-size">
+      <div class="container-lg d-flex justify-content-between px-0">
+        <a class="navbar-brand ms-0 ms-sm-3 ms-lg-0 logo-width" href="index.html">
+          <img src="img/1.png" alt="Brand Logo" width="175" height="50" class="img-fluid" />
+        </a>
+        <div class="d-flex align-items-center">
+          <div class="navbar-expand-lg">
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" data-bs-scroll="true"
+              aria-labelledby="offcanvasNavbar">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body d-lg-flex justify-content-center">
+                <ul class="navbar-nav gap-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link active" href="services.html">Services</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle" id="pagesDropdown" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Pages
+                    </button>
+                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="pagesDropdown">
+                      <li class="pad"></li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="pricing.html">Pricing</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="team.html">Team</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="testimonials.html">Testimonials</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="faqs.html">FAQS</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="404-page.html">404 Page</a>
+                      </li>
+                    </ul>
+                  </li> -->
+                  <!-- <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle" id="servicesDropdown" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Services
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                      <li class="pad"></li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="services.html">Services</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="services-detail.html">Service Detail</a>
+                      </li>
+                    </ul>
+                  </li> -->
+                  <!-- <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle" id="blogDropdown" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Our Blog
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                      <li class="pad"></li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="blog.html">Blog Post</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-3 px-4" href="single-post.html">Single Post</a>
+                      </li>
+                    </ul>
+                  </li> -->
+                </ul>
               </div>
             </div>
           </div>
-          <div class="d-flex">
-            <div class="d-none d-sm-flex">
-              <div
-                class="offcanvas offcanvas-end"
-                tabindex="-1"
-                id="offcanvasHero"
-                data-bs-scroll="true"
-                aria-labelledby="offcanvasHero"
-              >
-                <div class="offcanvas-header">
-                  <button
-                    type="button"
-                    class="btn-close text-reset"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  ></button>
+        </div>
+        <div class="d-flex">
+          <div class="d-none d-sm-flex">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasHero" data-bs-scroll="true"
+              aria-labelledby="offcanvasHero">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  <img src="img/1.png" alt="Brand Logo" class="d-inline-block img-sidebar" />
                 </div>
-                <div class="offcanvas-body">
-                  <div>
-                    <img
-                      src="img/everly-logo.png"
-                      alt="Brand Logo"
-                      class="d-inline-block img-sidebar"
-                    />
-                  </div>
-                  <p class="my-3">
-                    Supporting independence with compassionate care, every
-                    moment of life feels cherished.
-                  </p>
-                  <h5 class="my-3">Address</h5>
-                  <p class="mb-2">
-                    123 Serentity Lane, Suite 101, Hometown, cA 12345
-                  </p>
-                  <h5 class="my-3">Contact</h5>
-                  <p class="mb-2">(555) 123-4567</p>
-                  <h5 class="my-3">Follow Us</h5>
-                  <div class="d-flex gap-2 py-2">
-                    <a
-                      href="https://www.facebook.com/"
-                      class="social-icon-32 share"
-                      data-share-to="facebook"
-                    >
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a
-                      href="https://www.instagram.com/"
-                      class="social-icon-32 share"
-                      data-share-to="instagram"
-                    >
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a
-                      href="https://www.youtube.com/"
-                      class="social-icon-32 share"
-                      data-share-to="youtube"
-                    >
-                      <i class="fa-brands fa-youtube"></i>
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/"
-                      class="social-icon-32 share"
-                      data-share-to="linkedin"
-                    >
-                      <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                  </div>
+                <p class="my-3">
+                 Supporting independence with heartfelt care, making every moment truly meaningful
+                </p>
+                <h5 class="my-3">Address</h5>
+                <p class="mb-2">
+                  123 Serentity Lane, Suite 101, Hometown, cA 12345
+                </p>
+                <h5 class="my-3">Contact</h5>
+                <p class="mb-2">(555) 123-4567</p>
+                <h5 class="my-3">Follow Us</h5>
+                <div class="d-flex gap-2 py-2">
+                  <a href="https://www.facebook.com/" class="social-icon-32 share" data-share-to="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" class="social-icon-32 share" data-share-to="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.youtube.com/" class="social-icon-32 share" data-share-to="youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/" class="social-icon-32 share" data-share-to="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
                 </div>
               </div>
+            </div>
 
-              <div
-                class="offcanvas offcanvas-top"
-                tabindex="-1"
-                id="offcanvasSearch"
-                data-bs-scroll="true"
-                aria-labelledby="offcanvasSearch"
-              >
-                <div class="offcanvas-header">
-                  <button
-                    type="button"
-                    class="btn-close-custom"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  >
-                    <i class="fa-solid fa-x c-text-2"></i>
-                  </button>
-                </div>
-                <div class="offcanvas-body d-flex align-items-center">
-                  <form class="search-form d-flex align-items-center">
-                    <div class="input-group">
-                      <input
-                        type="text"
-                        class="form-control border-0 bg-transparent"
-                        placeholder="Search..."
-                        aria-label="Search"
-                        aria-describedby="search-button"
-                      />
-                      <button
-                        class="btn border-0 bg-transparent"
-                        type="submit"
-                        id="search-button"
-                      >
-                        <i class="fas fa-search c-text-2"></i>
-                      </button>
-                    </div>
-                  </form>
-                </div>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasSearch" data-bs-scroll="true"
+              aria-labelledby="offcanvasSearch">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close-custom" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <i class="fa-solid fa-x c-text-2"></i>
+                </button>
               </div>
-            </div>
-            <div class="d-none d-sm-flex">
-              <button
-                class="desktop-toggler"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasSearch"
-                aria-controls="offcanvasSearch"
-                aria-label="Toggle navigation"
-              >
-                <i class="fas fa-search c-main fa-lg"></i>
-              </button>
-            </div>
-            <div class="d-none d-lg-flex">
-              <button
-                class="desktop-toggler"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasHero"
-                aria-controls="offcanvasHero"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="d-flex d-lg-none">
-              <button
-                class="navbar-toggler px-0"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar"
-                aria-label="Toggle navigation"
-              >
-                <span class="custom-toggler-icon">
-                  <span class="bar bar-1"></span>
-                  <span class="bar bar-2"></span>
-                  <span class="bar bar-3"></span>
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar End -->
-    <!-- Banner Start -->
-    <div class="bg-banner-1">
-      <div class="page-size fade-in-left">
-        <h1 class="c-white">Contact</h1>
-        <div>
-          <p class="c-text-2">
-            Home
-            <img
-              src="icon/plus.png"
-              alt="plus"
-              width="16"
-              height="16"
-              class="icon-plus mx-1"
-            />
-            Contact
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- Banner End -->
-    <!-- Contact Start -->
-    <div class="bg-subtle">
-      <div class="page-size">
-        <div class="container-lg px-0">
-          <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col fade-in-left pt-lg-5">
-              <div
-                class="d-flex justify-content-start align-items-center gap-1 mt-lg-5"
-              >
-                <div>
-                  <i class="fa-solid fa-plus c-main fa-sm me-1"></i>
-                </div>
-                <span class="page-title c-main">CONTACT</span>
-              </div>
-              <h2 class="mt-4 mb-5">Get in Touch With Us</h2>
-              <p class="pe-0 pe-lg-5">
-                Have questions or need assistance? Our dedicated team is here to
-                help you every step of the way. Reach out today, and let's start
-                a conversation
-              </p>
-              <div class="row row-cols-1 row-cols-sm-2">
-                <div class="col">
-                  <h5 class="mt-5 mb-4">Visit Us</h5>
-                  <p class="pe-0 pe-lg-5">
-                    123 Serenity Lane, Suite 101, Hometown, CA 12345
-                  </p>
-                </div>
-                <div class="col">
-                  <h5 class="mt-5 mb-4">Contact Us</h5>
-                  <p>(555) 123-4567</p>
-                  <p>care@everlyservices.com</p>
-                </div>
-                <div>
-                  <h5 class="mt-5 mb-3">Follow Us</h5>
-                  <div class="d-flex gap-2 py-2">
-                    <a href="https://www.facebook.com/" class="icon-contact">
-                      <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="https://twitter.com/" class="icon-contact">
-                      <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    <a href="https://youtube.com/" class="icon-contact">
-                      <i class="fa-brands fa-youtube"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/" class="icon-contact">
-                      <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col mt-5 mt-lg-0 fade-in-up">
-              <div class="card-contact">
-                <form action="#" method="post" id="otherForm">
-                  <div class="popup-message-2" id="otherPopupMessage">
-                    <div>
-                      <i class="fa-solid fa-check fa-2xl"></i>
-                    </div>
-                    Thank you! The form submitted successfully
-                  </div>
-                  <div class="row row-cols-1 row-cols-sm-2">
-                    <div class="col">
-                      <h5 class="c-main">First Name</h5>
-                      <input
-                        type="text"
-                        placeholder="First name here"
-                        class="input-form"
-                      />
-                    </div>
-                    <div class="col mt-4 mt-sm-0">
-                      <h5 class="c-main">Last Name</h5>
-                      <input
-                        type="text"
-                        placeholder="Last name here"
-                        class="input-form"
-                      />
-                    </div>
-                  </div>
-                  <div class="row row-cols-1 row-cols-sm-2">
-                    <div class="col mt-4">
-                      <h5 class="c-main">Email Address</h5>
-                      <input
-                        type="email"
-                        placeholder="Add email"
-                        class="input-form"
-                      />
-                    </div>
-                    <div class="col mt-4">
-                      <h5 class="c-main">Telephone</h5>
-                      <input
-                        type="number"
-                        placeholder="Telephone"
-                        class="input-form"
-                      />
-                    </div>
-                  </div>
-                  <div>
-                    <h5 class="c-main mt-4">Your Message</h5>
-                    <textarea
-                      name="comment"
-                      id="comment"
-                      cols="30"
-                      rows="10"
-                      class="input-form"
-                      placeholder="Message"
-                    ></textarea>
-                  </div>
-                  <div class="row mt-4">
-                    <button class="btn btn-main" type="submit">
-                      Send Message
+              <div class="offcanvas-body d-flex align-items-center">
+                <form class="search-form d-flex align-items-center">
+                  <div class="input-group">
+                    <input type="text" class="form-control border-0 bg-transparent" placeholder="Search..."
+                      aria-label="Search" aria-describedby="search-button" />
+                    <button class="btn border-0 bg-transparent" type="submit" id="search-button">
+                      <i class="fas fa-search c-text-2"></i>
                     </button>
                   </div>
                 </form>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- Contact End -->
-    <!-- Maps Start -->
-    <div class="fade-in-up">
-      <iframe
-        loading="lazy"
-        class="maps overflow-hidden"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48346.62710714776!2d-73.78270764795138!3d40.76940999818811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1732409507385!5m2!1sid!2sid"
-        title="US"
-        aria-label="US"
-      ></iframe>
-    </div>
-    <!-- Maps End -->
-    <!-- FAQS Start -->
-    <div class="bg-subtle">
-      <div class="page-size">
-        <div class="container-lg px-0">
-          <div class="row g-5">
-            <div class="col-12 col-lg-7 fade-in-left">
-              <div
-                class="d-flex justify-content-start align-items-center gap-1 mt-5 mt-sm-0"
-              >
-                <div>
-                  <i class="fa-solid fa-plus c-main fa-sm"></i>
-                </div>
-                <span class="page-title c-main">FAQS</span>
-              </div>
-              <h2 class="mt-4 mb-5">Frequently Asked Questions</h2>
-              <div class="accordion mt-5" id="faqsAccordion">
-                <div class="accordion-item">
-                  <span class="accordion-header" id="headingOne">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      What services do you provide?
-                    </button>
-                  </span>
-                  <div
-                    id="collapseOne"
-                    class="accordion-collapse collapse show"
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#faqsAccordion"
-                  >
-                    <div class="accordion-body">
-                      We offer a range of services including personal care,
-                      companionship, wellness check-ins, 24/7 support, and
-                      specialized care for advanced needs. Each plan can be
-                      customized to meet individual client needs.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <span class="accordion-header" id="headingThree">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      Are you caregivers certified?
-                    </button>
-                  </span>
-                  <div
-                    id="collapseThree"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingThree"
-                    data-bs-parent="#faqsAccordion"
-                  >
-                    <div class="accordion-body">
-                      Yes, all our caregivers are certified, trained, and
-                      experienced in elder care. They undergo continuous
-                      training to provide the highest quality of care with
-                      compassion and expertise.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <span class="accordion-header" id="headingFour">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFour"
-                    >
-                      How do I choose the right care plan?
-                    </button>
-                  </span>
-                  <div
-                    id="collapseFour"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingFour"
-                    data-bs-parent="#faqsAccordion"
-                  >
-                    <div class="accordion-body">
-                      Our team will consult with you to assess your specific
-                      needs and recommend a care plan that best fits. We're here
-                      to answer any questions and make adjustments as necessary.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <span class="accordion-header" id="headingFive">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFive"
-                      aria-expanded="false"
-                      aria-controls="collapseFive"
-                    >
-                      Can I make changes to my care plan later?
-                    </button>
-                  </span>
-                  <div
-                    id="collapseFive"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingFive"
-                    data-bs-parent="#faqsAccordion"
-                  >
-                    <div class="accordion-body">
-                      Absolutely. We understand that needs can change over time.
-                      We work with families to make any necessary adjustments to
-                      ensure the highest level of comfort and support.
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <span class="accordion-header" id="headingSix">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseSix"
-                      aria-expanded="false"
-                      aria-controls="collapseSix"
-                    >
-                      Is 24/7 care available?
-                    </button>
-                  </span>
-                  <div
-                    id="collapseSix"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingSix"
-                    data-bs-parent="#faqsAccordion"
-                  >
-                    <div class="accordion-body">
-                      Yes, we offer 24/7 support for clients who require
-                      around-the-clock care and monitoring. Our caregivers are
-                      available at any time to provide assistance and ensure
-                      safety and comfort.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <span class="accordion-header" id="headingTwo">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      How do you ensure client safety and privacy?
-                    </button>
-                  </span>
-                  <div
-                    id="collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingTwo"
-                    data-bs-parent="#faqsAccordion"
-                  >
-                    <div class="accordion-body">
-                      We follow strict protocols to protect client privacy and
-                      ensure safety at all times. Our caregivers are trained in
-                      confidentiality, and we use secure systems to manage
-                      client information.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-5 mt-4 mt-lg-0 fade-in-up">
-              <img src="img/faqs-1.jpg" alt="faqs" class="img-faqs mt-5" />
-            </div>
+          <div class="d-none d-sm-flex">
+            <button class="desktop-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"
+              aria-controls="offcanvasSearch" aria-label="Toggle navigation">
+              <i class="fas fa-search c-main fa-lg"></i>
+            </button>
+          </div>
+          <div class="d-none d-lg-flex">
+            <button class="desktop-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHero"
+              aria-controls="offcanvasHero" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="d-flex d-lg-none">
+            <button class="navbar-toggler px-0" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="custom-toggler-icon">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+              </span>
+            </button>
           </div>
         </div>
       </div>
     </div>
-    <!-- FAQS End -->
-    <!-- Footer Start -->
-    <div class="bg-darker">
-      <div class="page-size">
-        <div class="container-lg px-0">
-          <div>
-            <div class="d-flex justify-content-start justify-content-sm-center">
-              <img
-                src="img/everly-logo-white.png"
-                alt="logo"
-                class="footer-logo"
-              />
+  </nav>
+  <!-- Navbar End -->
+  <!-- Banner Start -->
+  <div class="bg-banner-1">
+    <div class="page-size fade-in-left">
+      <h1 class="c-white">Contact</h1>
+      <div>
+        <p class="c-text-2">
+          Home
+          <img src="icon/plus.png" alt="plus" width="16" height="16" class="icon-plus mx-1" />
+          Contact
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Banner End -->
+  <!-- Contact Start -->
+  <div class="bg-subtle">
+    <div class="page-size">
+      <div class="container-lg px-0">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col fade-in-left pt-lg-5">
+            <div class="d-flex justify-content-start align-items-center gap-1 mt-lg-5">
+              <div>
+                <i class="fa-solid fa-plus c-main fa-sm me-1"></i>
+              </div>
+              <span class="page-title c-main">CONTACT</span>
             </div>
-            <div
-              class="d-flex justify-content-start justify-content-sm-center mt-2 mb-4"
-            >
-              <p class="c-text-2 footer-text">
-                Supporting independence with compassionate care, every moment of
-                life feels cherished.
-              </p>
+            <h2 class="mt-4 mb-5">Get in Touch With Us</h2>
+            <p class="pe-0 pe-lg-5">
+             Have a question or need support? Our caring team is ready to guide you every step of the way. Contact us today and let’s connect
+            </p>
+            <div class="row row-cols-1 row-cols-sm-2">
+              <div class="col">
+                <h5 class="mt-5 mb-4">Visit Us</h5>
+                <p class="pe-0 pe-lg-5">
+                  123 Serenity Lane, Suite 101, Hometown, CA 12345
+                </p>
+              </div>
+              <div class="col">
+                <h5 class="mt-5 mb-4">Contact Us</h5>
+                <p>(555) 123-4567</p>
+                <p>care@everlyservices.com</p>
+              </div>
+              <div>
+                <h5 class="mt-5 mb-3">Follow Us</h5>
+                <div class="d-flex gap-2 py-2">
+                  <a href="https://www.facebook.com/" class="icon-contact">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="https://twitter.com/" class="icon-contact">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://youtube.com/" class="icon-contact">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/" class="icon-contact">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="row mt-5">
-            <div class="col-12 col-lg-6 order-4 order-lg-0 mt-5 mt-lg-0">
-              <h4 class="c-white mb-4">Newsletter</h4>
-              <form action="#" method="post" id="newsletterForm">
-                <div class="popup-message" id="popupMessage">
+          <div class="col mt-5 mt-lg-0 fade-in-up">
+            <div class="card-contact">
+              <form action="#" method="post" id="otherForm">
+                <div class="popup-message-2" id="otherPopupMessage">
                   <div>
                     <i class="fa-solid fa-check fa-2xl"></i>
                   </div>
                   Thank you! The form submitted successfully
                 </div>
-                <input
-                  type="email"
-                  class="input-newsletter"
-                  placeholder="Email"
-                />
-                <button type="submit" class="btn btn-newsletter mt-3">
-                  Subscribe Now
-                </button>
+                <div class="row row-cols-1 row-cols-sm-2">
+                  <div class="col">
+                    <h5 class="c-main">First Name</h5>
+                    <input type="text" placeholder="First name here" class="input-form" />
+                  </div>
+                  <div class="col mt-4 mt-sm-0">
+                    <h5 class="c-main">Last Name</h5>
+                    <input type="text" placeholder="Last name here" class="input-form" />
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2">
+                  <div class="col mt-4">
+                    <h5 class="c-main">Email Address</h5>
+                    <input type="email" placeholder="Add email" class="input-form" />
+                  </div>
+                  <div class="col mt-4">
+                    <h5 class="c-main">Telephone</h5>
+                    <input type="number" placeholder="Telephone" class="input-form" />
+                  </div>
+                </div>
+                <div>
+                  <h5 class="c-main mt-4">Your Message</h5>
+                  <textarea name="comment" id="comment" cols="30" rows="10" class="input-form"
+                    placeholder="Message"></textarea>
+                </div>
+                <div class="row mt-4">
+                  <button class="btn btn-main" type="submit">
+                    Send Message
+                  </button>
+                </div>
               </form>
-            </div>
-            <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
-              <h4 class="c-white">Explore</h4>
-              <ul class="footer-links">
-                <li>
-                  <a class="footer-link" href="index.html">Home</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="about.html">About</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="contact.html">Contact</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="services.html">Services</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="packages.html">Packages</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
-              <h4 class="c-white">Navigation</h4>
-              <ul class="footer-links">
-                <li>
-                  <a class="footer-link" href="index.html">Privacy Policy</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="index.html">Customer Support</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="index.html">Regulation</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="index.html">Insurance</a>
-                </li>
-                <li>
-                  <a class="footer-link" href="index.html">Disclaimer</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
-              <div>
-                <h4 class="c-white mb-1">Our Contact</h4>
-                <h4 class="c-white mt-3 pt-1">Phone</h4>
-                <p class="c-text-2">(555) 123-4567</p>
-                <h4 class="c-white">Email</h4>
-                <p class="c-text-2">care@everlyservices.com</p>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Footer End -->
-    <script src="lib/js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
-  </body>
+  </div>
+  <!-- Contact End -->
+  <!-- Maps Start -->
+  <div class="fade-in-up">
+    <iframe loading="lazy" class="maps overflow-hidden"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9582008.90099405!2d-15.00751180462839!3d54.10286356099102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2sin!4v1756268106902!5m2!1sen!2sin"
+      title="US" aria-label="US"></iframe>
+  </div>
+  <!-- Maps End -->
+  <!-- FAQS Start -->
+  <div class="bg-subtle">
+    <div class="page-size">
+      <div class="container-lg px-0">
+        <div class="row g-5">
+          <div class="col-12 col-lg-7 fade-in-left">
+            <div class="d-flex justify-content-start align-items-center gap-1 mt-5 mt-sm-0">
+              <div>
+                <i class="fa-solid fa-plus c-main fa-sm"></i>
+              </div>
+              <span class="page-title c-main">FAQS</span>
+            </div>
+            <h2 class="mt-4 mb-5">Frequently Asked Questions</h2>
+            <div class="accordion mt-5" id="faqsAccordion">
+              <div class="accordion-item">
+                <span class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    What types of services do you offer?
+                  </button>
+                </span>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body">
+                     We provide personal care, companionship, wellness check-ins, 24/7 support, and specialized
+                    care customized to each client’s needs.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <span class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     Are your caregivers trained and certified?
+                  </button>
+                </span>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body">
+                   Yes. All our caregivers undergo professional training, background checks, and certification to
+                    ensure safe, reliable, and compassionate care.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <span class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    How do I select the right care plan?
+                  </button>
+                </span>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body">
+                    Our team works closely with you and your family to understand needs, lifestyle, and preferences
+                    before recommending the most suitable care plan.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <span class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Can I adjust my care plan later on?
+                  </button>
+                </span>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body">
+                   Absolutely. We understand that needs may change, so care plans can always be updated or modified to
+                    match evolving requirements.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <span class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Do you provide round-the-clock care?
+                  </button>
+                </span>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body">
+                  Yes, we offer 24/7 care services for clients who need continuous support, ensuring peace of mind for
+                    families at all times.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <span class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     How do you protect client safety and privacy?
+                  </button>
+                </span>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#faqsAccordion">
+                  <div class="accordion-body">
+                   We follow strict safety protocols, use secure systems, and respect client confidentiality at every
+                    step to safeguard wellbeing and personal information.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 mt-4 mt-lg-0 fade-in-up">
+            <img src="img/faqs-1.jpg" alt="faqs" class="img-faqs mt-5" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FAQS End -->
+  <!-- Footer Start -->
+  <div class="bg-darker">
+    <div class="page-size">
+      <div class="container-lg px-0">
+        <div>
+          <div class="d-flex justify-content-start justify-content-sm-center">
+            <img src="img/2.png" alt="logo" class="footer-logo" />
+          </div>
+          <div class="d-flex justify-content-start justify-content-sm-center mt-2 mb-4">
+            <p class="c-text-2 footer-text">
+             Supporting independence with heartfelt care, making every moment truly meaningful
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-lg-6 order-4 order-lg-0 mt-5 mt-lg-0">
+            <h4 class="c-white mb-4">Locate Us</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.83988733657!2d-0.26640515171374796!3d51.52873980485479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1756539368993!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <form action="#" method="post" id="newsletterForm">
+              <div class="popup-message" id="popupMessage">
+                <div>
+                  <i class="fa-solid fa-check fa-2xl"></i>
+                </div>
+                Thank you! The form submitted successfully
+              </div>
+              <input type="email" class="input-newsletter" placeholder="Email" />
+              <button type="submit" class="btn btn-newsletter mt-3">
+                Subscribe Now
+              </button>
+            </form> -->
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
+            <h4 class="c-white">Explore</h4>
+            <ul class="footer-links">
+              <li>
+                <a class="footer-link" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="footer-link" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="footer-link" href="contact.html">Contact</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Services</a>
+              </li>
+              <!-- <li>
+                <a class="footer-link" href="packages.html">Packages</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
+            <h4 class="c-white">Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a class="footer-link" href="services.html">Visiting Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Live-in Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Nursing Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Older Person Care</a>
+              </li>
+              <li>
+                <a class="footer-link" href="services.html">Dementia Care</a>
+              </li>
+               <li>
+                <a class="footer-link" href="services.html">Comfort Care</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2 mt-4 mt-lg-0">
+            <div>
+              <h4 class="c-white mb-1">Our Contact</h4>
+              <h4 class="c-white mt-3 pt-1">Phone</h4>
+              <p class="c-text-2">(555) 123-4567</p>
+              <h4 class="c-white">Email</h4>
+              <p class="c-text-2">care@everlyservices.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+  <script src="lib/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
