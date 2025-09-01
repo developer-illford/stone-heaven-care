@@ -398,6 +398,10 @@ img {
     box-shadow: none;
 }
 
+.offcanvas {
+    height: 50vh;
+}
+
 .offcanvas-header .btn-close-custom {
     position: absolute;
     top: 20px;
@@ -1710,25 +1714,25 @@ img {
 }
 
 
-@media(max-width:600px){
-    
-.bg-get-started {
-    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/journey-begins-phn.jpg');
-    padding: 64px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+@media(max-width:600px) {
+
+    .bg-get-started {
+        background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/journey-begins-phn.jpg');
+        padding: 64px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 
 /* For tablets (601px–992px) */
 @media (min-width: 601px) and (max-width: 992px) {
-  .bg-get-started {
-    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/journey-begins-tab.png');
-    padding: 64px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+    .bg-get-started {
+        background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/journey-begins-tab.png');
+        padding: 64px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
