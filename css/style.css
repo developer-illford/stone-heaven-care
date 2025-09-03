@@ -851,7 +851,7 @@ img {
 
 .bg-value {
     width: 1300px;
-    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/value-1.png');
+    background-image: linear-gradient(to right, rgba(12, 21, 22, 0.6), rgba(0, 0, 0, 0)), url('../img/value-2.jpg');
     background-size: cover;
     background-position: center;
     padding: 32px;
@@ -995,7 +995,8 @@ img {
 .bg-banner-2,
 .bg-banner-3,
 .bg-banner-4,
-.bg-banner-5 {
+.bg-banner-5,
+.bg-banner-6 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1024,6 +1025,10 @@ img {
 
 .bg-banner-5 {
     background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/service-detail-1.jpg');
+}
+
+.bg-banner-6 {
+    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/services-banner.jpg');
 }
 
 .text-post-terms {
@@ -1736,3 +1741,14 @@ img {
         background-position: center;
     }
 }
+
+/* @media(max-width:768px) {
+    .bg-value {
+        background-image: linear-gradient(to right, rgba(12, 21, 22, 0.6), rgba(0, 0, 0, 0)), url('../img/value-2-phn.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 32px;
+        width: 100%;
+
+    }
+} */
